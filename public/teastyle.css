@@ -1,0 +1,205 @@
+*
+{
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0;
+}
+.carousel-inner .carousel-item{
+  width:1500px; 
+  height:600px;
+
+ 
+  margin-top: -5px;
+  top: 50%;
+  left: 0;
+}
+.carousel-item h1
+{
+  font-size: 40px;
+  font-weight: bold;
+  font-style: italic;
+  color: rgb(8, 68, 124);
+  padding: 3rem;
+  background-color: rgba(229, 229, 149, 0.548);
+  font-family: 'Patua One', cursive;
+}
+  
+.header
+{
+  padding: 9rem 0 3rem;
+}
+.header h1
+{
+  font-size: 50px;
+  font-weight: medium;
+  text-decoration: underline black solid;
+  text-align: center;
+  padding: 2rem;
+  font-family: 'Patua One', cursive;
+}
+.header p{
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Sarabun', sans-serif;
+}
+.subheader
+{
+  padding: 7rem 0 3rem;
+  background-color: rgb(224, 234, 238);
+  margin: 2%;
+}
+.subheader h1
+{
+  text-align: center;
+  text-decoration: underline black solid;
+  font-family: 'Patua One', cursive;
+}
+.subheader p
+{
+  text-align: center;
+  font-style: italic;
+  padding: 3rem;
+  font-size: 150%;
+  font-family: 'Sarabun', sans-serif;
+}
+.subheader img
+{
+  border-radius: 7px;
+  margin-bottom: 3%;
+}
+*
+{
+  list-style-type: none;
+}
+.menuu
+{
+  padding: 7rem 0 3rem;
+  margin-left: 5%;
+}
+.menuu h1
+{
+  
+  text-align: center;
+  text-decoration: underline black solid;
+  padding: 3rem;
+  font-size: 50px;
+  font-family: 'Patua One', cursive;
+ background-color: rgba(255, 166, 0, 0.5);
+ margin-bottom: 5%;
+ border-radius: 8px;
+ margin-right: 4%;
+}
+.menuu li
+{
+  font-size: 20px;
+}
+.franchise
+{
+  background-image: url(teaimg/i4.jpg);
+  background-size: cover;
+  padding: 7rem 0 3rem;
+  width: 98%;
+  height: 90%;
+  text-align: center;
+}
+.franchise h1
+{
+  text-align: center;
+  font-size: 60px;
+  display: inline;
+  color: rgb(177, 127, 19);
+  background-color: rgba(196, 186, 186, 0.815);
+  font-family: 'Patua One', cursive;
+  border-radius: 9px;
+ 
+  margin-bottom: 2%;
+}
+.franchise p
+{
+  text-align: center;
+  font-size: 30px;
+  color: darkgrey;
+  background-color: rgba(170, 113, 8, 0.76);
+  margin-top: 3%;
+  font-family: 'Sarabun', sans-serif;
+  
+}
+.btn 
+{
+ 
+  background-color: teal !important;
+  color: white !important;
+  border-radius: 9px !important;
+}
+
+ .btn:hover
+{
+  color: rgb(221, 73, 15) !important;
+  background-color: lightsteelblue !important;
+}
+.end
+{
+  padding: 6rem 0 3rem;
+  background-color: rgb(236, 236, 171);
+  margin-top: 5%;
+
+}
+.end h3
+{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 2rem;
+  font-family: 'Patua One', cursive;
+}
+.end p
+{
+  text-align: center;
+  font-family: 'Sarabun', sans-serif;
+}
+.end h5
+{
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  padding: 2rem;
+  font-family: 'Patua One', cursive;
+}
+.forms
+{
+  text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea
+{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+input[type="submit"]
+{
+    background-color: lightseagreen;
+    color: rgb(15, 3, 15);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 40%;
+}
+input[type="submit"]:hover
+{
+    background-color: rgb(230, 133, 7);
+}
+ span
+ {
+   margin-left: 35%;
+ }
+ span .fab:hover
+ {
+   color: mediumblue;
+   cursor: pointer;
+ }
